@@ -19,6 +19,8 @@ public class BaseClass1 {
 			WebDriverManager.firefoxdriver().setup();;
 //			System.setProperty("webdriver.gecko.driver", "src\\\\main\\\\resources\\\\Browser\\\\geckodriver.exe");
 			driver = new FirefoxDriver();
+			
+			
 		}
 
 		driver.get("https://www.flipkart.com/");
